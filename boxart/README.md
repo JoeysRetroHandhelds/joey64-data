@@ -6,7 +6,7 @@ Joey64 reads `boxart/index.tsv` from the `release` branch (at most once a week) 
 
 | MD5 | Game | Source |
 | --- | --- | --- |
-| 193c195a5c5b28acd0d7346f050deea5 | Super Mario 64 - Elise | N64-style landscape box made 2026-11-15 from koobie777's N64 cover template layers around the hack's title screen (Team Cornersoft 2022, 625x474, from Joey), 640x447; Joey approved it |
+| 193c195a5c5b28acd0d7346f050deea5 | Super Mario 64 - Elise | N64-style landscape box made by Joey 2026-11-15 from koobie777's N64 cover template around the hack's title screen (Team Cornersoft 2022), 640x444 |
 | 605c74e34d0302707723b191ea30ae44 | Super Mario 64 - Peach's Fury | fan-made N64-style box, 385x281, from Joey (small: a bigger copy would match the 640 px covers) |
 | 9feee5da895fb2e115bb15d1c4a9f906 | Super Mario Land 64 v1.1 (its ROM header says SUPER MARIO 64 LAND) | fan-made N64-style box, 385x281, from Joey (small: a bigger copy would match the 640 px covers) |
 | 7906333f41184f6cfda9d364a6f8d565 | Shotgun Mario 64 (v1.0.4) | fan-made N64-style box, 412x300, from Joey |
