@@ -17,7 +17,7 @@ GameBooster 64 (Europe) (v1.1) (Unl)	broken	Closes about 16 s in on both CPU cor
 GameBooster 64 (USA) (v1.1) (Unl)	broken	Closes about 16 s in on both CPU cores, as it does in upstream mupen64plus-next. On a console a game cartridge plugs in on top of it, which emulators don't have. Parked for now.
 GameShark Pro (USA) (v3.3) (Unl)	broken	Closes about 16 s in on both CPU cores, as it does in upstream mupen64plus-next. On a console a game cartridge plugs in on top of it, which emulators don't have. Parked for now.
 GameShark Pro (USA) (v2.0) (Unl)	broken	No picture: it hangs before its first frame on both CPU cores, and in upstream mupen64plus-next too.
-Doom 64 (USA) (Beta) (1996-12-10)	broken	No picture: it hangs before its first frame on both CPU cores, and in upstream mupen64plus-next too.
+Doom 64 (USA) (Beta) (1996-12-10)	runs	Hung before its first frame up to 2026-11-12. Runs since Joey64 0.2.0: its Evaluation/Alpha menu and the game (Retroid Pocket Flip, 2026-11-16).
 Derby Stallion 64 (Japan) (Beta) [b]	broken	A bad dump (marked [b]): it hangs before its first frame here and in upstream mupen64plus-next.
 Glover (USA) (1998-07-16) (Beta) [b]	broken	A bad dump (marked [b]): it hangs before its first frame here and in upstream mupen64plus-next.
 Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (GameCube)	starts	Runs (Retroid Pocket Flip, 2026-11-12). The earlier close on the Odin 3 Portal was a fault in the test setup, not the game.
@@ -33,14 +33,15 @@ Spacer (World) (Unl)	starts	Closed about 16 s in on the run's first build. Rerun
 Voidblade (World) (N64brew Game Jam 2021) (Aftermarket) (Unl)	starts	Closed about 16 s in on the run's first build. Rerun 2026-11-12 on the current core (Retroid Pocket Duo): runs for the whole 150 s check.
 Star Wars Episode I - Racer (Japan)	starts	Stopped drawing in the first run; rerun 2026-11-12 (Retroid Pocket Duo): runs for the whole 150 s check.
 ZZ Gunner (World) (N64brew Game Jam 2021) (Aftermarket) (Unl)	broken	No picture after its first frame: it stops there on both CPU cores, and upstream mupen64plus-next crashes on it. Its page names ares or CEN64 as the emulators for it.
-Thornmarked (World) (Demo) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl)	broken	No picture after its first frame: it stops there on both CPU cores, and in upstream mupen64plus-next too.
-Thornmarked (World) (Demo) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl)	broken	No picture after its first frame: it stops there on both CPU cores, and in upstream mupen64plus-next too.
-Tic Tac Toe 64 (World) (Aftermarket) (Unl)	broken	No picture: it hangs before its first frame on both CPU cores, and in upstream mupen64plus-next too.
-Riqa (Europe) (Proto) (2000-02-14)	broken	No picture: it hangs before its first frame on both CPU cores, and in upstream mupen64plus-next too.
-Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997)	broken	No picture: it hangs before its first frame on both CPU cores, and in upstream mupen64plus-next too.
+Thornmarked (World) (Demo) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl)	broken	A bug in the game: it writes a display list past the end of the memory it set aside for it, and the next things it sets aside overwrite it. On a real N64 the CPU's cache hides this; Joey64, like other mupen64plus emulators, has no CPU cache, so the picture stays black. Emulators that copy the cache (ares, CEN64) run it.
+Thornmarked (World) (Demo) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl)	broken	A bug in the game: it writes a display list past the end of the memory it set aside for it, and the next things it sets aside overwrite it. On a real N64 the CPU's cache hides this; Joey64, like other mupen64plus emulators, has no CPU cache, so the picture stays black. Emulators that copy the cache (ares, CEN64) run it.
+Tic Tac Toe 64 (World) (Aftermarket) (Unl)	runs	Hung before its first frame up to 2026-11-12. Fixed in Joey64 0.2.0: the board is drawn and plays (Retroid Pocket Flip, 2026-11-16).
+Riqa (Europe) (Proto) (2000-02-14)	broken	A bad build of the prototype: the archive that has the Riqa builds says this one doesn't run in Project64 or on a flash cart either. The other Riqa builds run.
+Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997)	runs	Hung before its first frame up to 2026-11-12. Fixed in Joey64 0.2.0: the demo plays (Retroid Pocket Flip, 2026-11-16).
 Xplorer 64 (Germany) (v1.067) (Unl)	broken	A cheat cartridge: on a console a game cartridge plugs in on top of it, which emulators don't have. It hangs before its first frame here and in upstream mupen64plus-next.
 Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03)	broken	This dump has no boot code (the boot area is empty), so it can't start on a console either.
 Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-06-06) [b]	broken	A bad dump (marked [b], and its checksum doesn't match its data): it boots, then shows nothing after its first frame.
 [BIOS] Nintendo 64 - PIF (Brazil)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
 [BIOS] Nintendo 64 - PIF (Europe)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
 [BIOS] Nintendo 64 - PIF (Japan, USA)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
+Onegai Monsters (Japan)		On Mali GPUs (Retroid Pocket Flip) 0.2.2 and earlier show a black screen at 0.2 fps. Fixed for the next version: this game always draws synchronously (Flip 2026-11-16: 23-60 fps).
