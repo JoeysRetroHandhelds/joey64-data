@@ -44,4 +44,4 @@ Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-06-06) [b]	broken	A bad dump 
 [BIOS] Nintendo 64 - PIF (Brazil)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
 [BIOS] Nintendo 64 - PIF (Europe)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
 [BIOS] Nintendo 64 - PIF (Japan, USA)	notgame	Not a game: a dump of the console's PIF boot ROM, not a cartridge. Joey64 doesn't need it.
-Onegai Monsters (Japan)		On Mali GPUs (Retroid Pocket Flip) 0.2.2 and earlier show a black screen at 0.2 fps. Fixed for the next version: this game always draws synchronously (Flip 2026-11-16: 23-60 fps).
+Onegai Monsters (Japan)		On Mali GPUs (Retroid Pocket Flip) 0.2.2 and earlier show a black screen at 0.2 fps. Fixed in 0.2.3: the game runs on GLideN64 by default (parallel-RDP draws junk blocks over its rooms on every GPU; GLideN64 is clean at 60 fps on the Odin 2 Portal and the Flip).

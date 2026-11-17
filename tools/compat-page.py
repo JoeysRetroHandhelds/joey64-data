@@ -22,6 +22,7 @@ HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DEVICES = {
     'o3p': {'name': 'Odin 3 Portal', 'gpu': 'Adreno 830', 'family': 'Adreno 8xx'},
+    'o3': {'name': 'Odin 3', 'gpu': 'Adreno 830', 'family': 'Adreno 8xx'},
     'o2p': {'name': 'Odin 2 Portal', 'gpu': 'Adreno 740', 'family': 'Adreno 7xx'},
     'duo': {'name': 'Retroid Pocket Duo', 'gpu': 'Adreno 722', 'family': 'Adreno 7xx'},
     'flip': {'name': 'Retroid Pocket Flip', 'gpu': 'Mali-G52', 'family': 'Mali'},
@@ -33,6 +34,10 @@ COMPAT_RUNS = [
     ('o2p', 'odin2p-cf30-compat'), ('o2p', 'odin2p-cf30-rerun'),
     # 2026-11-12: main 3a5caf0 (core rel2 247364e)
     ('flip', 'flip-golf-compat'), ('duo', 'duo-golf-compat'), ('o2p', 'o2p-golf-compat'),
+    # 2026-11-17: 0.2.3 (main 0460ca2, core 6fd1c56), Joey's 21-game short list on five devices; the Flip's
+    # rerun on the fence-wait retry build wins over its first run (Perfect Dark lost the GPU there)
+    ('o3p', 'o3p-rc023'), ('o3', 'o3-rc023'), ('o2p', 'o2p-rc023'), ('duo', 'duo-rc023'),
+    ('flip', 'flip-rc023'), ('flip', 'flip-rc023b'),
 ]
 REGIONS = ['USA', 'Europe', 'Japan', 'World', 'Germany', 'France', 'Spain', 'Italy', 'Australia', 'Brazil', 'Korea',
            'China', 'Netherlands', 'Sweden', 'Canada', 'Asia', 'UK', 'Scandinavia']

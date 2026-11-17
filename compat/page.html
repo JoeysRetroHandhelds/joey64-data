@@ -179,7 +179,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
     </div>
     <div class="panel">
       <h2>Test devices</h2>
-      <p id="devs">Adreno 8xx: Odin 3 Portal. Adreno 7xx: Odin 2 Portal, Retroid Pocket Duo. Mali: Retroid Pocket Flip. Each game was run on one of them, the 82 games of the in-game check on all four. No game files are hosted here.</p>
+      <p id="devs">Adreno 8xx: Odin 3 Portal, Odin 3. Adreno 7xx: Odin 2 Portal, Retroid Pocket Duo. Mali: Retroid Pocket Flip. Each game was run on one of them, the 82 games of the in-game check on the first four, and the 21 games of the release check on all five. No game files are hosted here.</p>
     </div>
   </section>
 </main>
@@ -245,7 +245,8 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
   }
   function onText(g) {
     if (!g.on.length) return '—';
-    if (g.on.length === 4) return 'All 4 test devices';
+    var nd = Object.keys(D.devices).length;
+    if (g.on.length === nd) return 'All ' + nd + ' test devices';
     return g.on.map(function (d) { return D.devices[d].name; }).join(', ');
   }
   function wsText(g) { return g.ws === 'own' ? 'Own 16:9 mode' : g.ws === 'code' ? 'Code' : '—'; }
