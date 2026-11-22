@@ -142,3 +142,24 @@ gn Wild Choppers (Japan)
   cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: flight play wide, HUD at the edges
   8100B04A 3FE3
   8100B056 8E39
+
+crc 664BA3D4-678A80B7-C:45
+gn Mario Golf (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Ported from the Europe code; play-tested: play, HUD at edges
+  8102F29A 3FE3
+  8102F29E 8E39
+
+crc 2829657E-A0621877-C:45
+gn Mario Party (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Ported from the Japan code; play-tested: board play wide, HUD at the corners
+  8101D5F2 3FE3
+  8101D5F6 8E39
+
+crc 214CAD94-BE1A3B24-C:45
+gn Chopper Attack (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Ported from Wild Choppers (Japan); play-tested: mission brief and flight wide
+  8100B06A 3FE3
+  8100B076 8E39
