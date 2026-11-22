@@ -66,3 +66,79 @@ gn Paper Mario (U) (LodgeNet)
   810B2312 01E0
   8102D594 2407
   8102D596 01AB
+
+crc EE802DC4-690BD57D-C:4A
+gn Extreme-G (Japan)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: race + HUD at edges; the white screen at boot 30 s and state 15 s is the game's own
+  810FBFB4 3C07
+  810FBFB6 3FE3
+
+crc 5F2763C4-62412AE5-C:45
+gn International Superstar Soccer 64 (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: match, HUD + radar in place
+  8105F6B4 3C07
+  8105F6B6 3FE3
+
+crc E0A79F8C-32CC97FA-C:4A
+gn Jikkyou World Soccer 3 (Japan)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: match, HUD + radar in place
+  81104780 3FE3
+  81104782 8E39
+
+crc 0D93BA11-683868A6-C:50
+gn Kirby 64 - The Crystal Shards (Europe)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: tutorial play, text boxes in place
+  8121DD00 3FDD
+  8121DD02 DDDD
+
+crc 62E957D0-7FC15A5D-C:50
+gn Mario Golf (Europe)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: play, HUD at edges
+  8102F21A 3FE3
+  8102F21E 8E39
+
+crc C3B6DE9D-65D2DE76-C:50
+gn Mario Kart 64 (Europe)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: race, HUD at edges
+  812A50A0 3C07
+  812A50A2 3FE3
+
+crc 769147F3-2033C10E-C:45
+gn S.C.A.R.S. (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: race, HUD at edges
+  8101C66E 3FE1
+
+crc 7A6081FC-FF8F7A78-C:4A
+gn 64 Trump Collection - Alice no Wakuwaku Trump World (Japan)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: story scenes fill 16:9, text boxes in place; one room scene (state 15 s) stays 4:3 with bars
+  810D70D6 3FE3
+  810D70DA 8E39
+
+crc 88CF980A-8ED52EB5-C:4A
+gn Bakushou Jinsei 64 - Mezase! Resort Ou (Japan)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: menus + board play wide, text in place
+  8102E732 3FE3
+  8102E736 8E39
+
+crc ADA815BE-6028622F-C:4A
+gn Mario Party (Japan)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: board play wide, HUD at the corners
+  8101D522 3FE3
+  8101D526 8E39
+
+crc 0CEBC4C7-0C9CE932-C:4A
+gn Wild Choppers (Japan)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: flight play wide, HUD at the edges
+  8100B04A 3FE3
+  8100B056 8E39
