@@ -163,3 +163,31 @@ gn Chopper Attack (USA)
   cd Show the picture at 16:9: more is seen at the sides. Ported from Wild Choppers (Japan); play-tested: mission brief and flight wide
   8100B06A 3FE3
   8100B076 8E39
+
+crc 61B31599-C5C01857-C:45
+gn Tecto (World) (v1.1) (Aftermarket) (Unl)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: play wide
+  81009C74 3FE3
+  81009C76 8E39
+
+crc 21260D94-06AE1DFE-C:45
+gn Tommy Thunder (USA) (Proto) (1997-10-01)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: play wide
+  8100CD08 3C07
+  8100CD0A 3FE3
+
+crc FCE0D799-65316C54-C:45
+gn Knife Edge - Nose Gunner (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: flight play wide, HUD at the edges, menus
+  8111BE54 3FE3
+  8111BE56 8E39
+
+crc 8CC182A6-C2D0CAB0-C:4A
+gn AI Shougi 3 (Japan)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: board and menus
+  81134EA6 3FE3
+  81134EAA 8E39
