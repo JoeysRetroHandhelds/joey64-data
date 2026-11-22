@@ -74,6 +74,13 @@ gn Extreme-G (Japan)
   810FBFB4 3C07
   810FBFB6 3FE3
 
+crc FDA245D2-A74A3D47-C:45
+gn Extreme-G (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Ported from Extreme-G (Japan); play-tested: race + HUD at edges
+  810F92FC 3C07
+  810F92FE 3FE3
+
 crc 5F2763C4-62412AE5-C:45
 gn International Superstar Soccer 64 (USA)
  cn Widescreen 16:9
@@ -95,6 +102,13 @@ gn Kirby 64 - The Crystal Shards (Europe)
   8121DD00 3FDD
   8121DD02 DDDD
 
+crc 46039FB4-0337822C-C:45
+gn Kirby 64 - The Crystal Shards (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Ported from Kirby 64 (Europe); play-tested: tutorial play, text boxes in place
+  8121DA40 3FDD
+  8121DA42 DDDD
+
 crc 62E957D0-7FC15A5D-C:50
 gn Mario Golf (Europe)
  cn Widescreen 16:9
@@ -106,6 +120,13 @@ crc C3B6DE9D-65D2DE76-C:50
 gn Mario Kart 64 (Europe)
  cn Widescreen 16:9
   cd Show the picture at 16:9: more is seen at the sides. Found by Joey64's widescreen finder; play-tested: race, HUD at edges
+  812A50A0 3C07
+  812A50A2 3FE3
+
+crc 3E5055B6-2E92DA52-C:45
+gn Mario Kart 64 (USA)
+ cn Widescreen 16:9
+  cd Show the picture at 16:9: more is seen at the sides. Ported from Mario Kart 64 (Europe); play-tested: race, HUD at edges
   812A50A0 3C07
   812A50A2 3FE3
 
