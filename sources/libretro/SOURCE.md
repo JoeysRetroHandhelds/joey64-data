@@ -1,2 +1,2 @@
-Copied from https://github.com/libretro/libretro-database, `cht/Nintendo - Nintendo 64/*.cht`, commit 969e31a324119a17add184e8b716315a74adb51b (2026-11-15).
+Copied from https://github.com/libretro/libretro-database, `cht/Nintendo - Nintendo 64/*.cht`, commit f89f09cbe13f9f7863ecf20d0ebf2c5ce53be029 (2026-11-22).
 libretro-database's cheat files are under the Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/ . By the libretro team and contributors. Unchanged copies; dist/libretro is an adapted form (converted to JSON, bulk lists left out) shared under the same licence.
