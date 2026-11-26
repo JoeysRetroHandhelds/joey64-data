@@ -26,6 +26,13 @@ DEVICES = {
     'o2p': {'name': 'Odin 2 Portal', 'gpu': 'Adreno 740', 'family': 'Adreno 7xx'},
     'duo': {'name': 'Retroid Pocket Duo', 'gpu': 'Adreno 722', 'family': 'Adreno 7xx'},
     'flip': {'name': 'Retroid Pocket Flip', 'gpu': 'Mali-G52', 'family': 'Mali'},
+    # 2026-11-26: the devices added to the release check since 0.2.3
+    'rp5': {'name': 'Retroid Pocket 5', 'gpu': 'Adreno 650', 'family': 'Adreno 6xx'},
+    '55g1': {'name': 'Anbernic RG 55G1', 'gpu': 'Adreno 613', 'family': 'Adreno 6xx'},
+    '477': {'name': 'Anbernic RG477M', 'gpu': 'Mali-G615', 'family': 'Mali'},
+    '476': {'name': 'Anbernic RG 476H', 'gpu': 'Mali-G57', 'family': 'Mali'},
+    '353': {'name': 'Anbernic RG353P', 'gpu': 'Mali-G52', 'family': 'Mali'},
+    'kb': {'name': 'KONKR Pocket Block', 'gpu': 'Mali-G52', 'family': 'Mali'},
 }
 # The 82-game compat runs that count, per device (later runs of a device win per game).
 COMPAT_RUNS = [
@@ -38,6 +45,12 @@ COMPAT_RUNS = [
     # rerun on the fence-wait retry build wins over its first run (Perfect Dark lost the GPU there)
     ('o3p', 'o3p-rc023'), ('o3', 'o3-rc023'), ('o2p', 'o2p-rc023'), ('duo', 'duo-rc023'),
     ('flip', 'flip-rc023'), ('flip', 'flip-rc023b'),
+    # 2026-11-25: 0.2.8 (app 2f94509, core 21914ae), the 21-game release check on nine devices; the Odin 3 Portal and
+    # RG 476H ran it again on the rebuilt candidates b and c (c is the published APK)
+    ('o3p', 'rel028-o3p-s1'), ('o2p', 'rel028-o2p-s1'), ('flip', 'rel028-flip-s1'), ('rp5', 'rel028-rp5-s1'),
+    ('55g1', 'rel028-55g1-s1'), ('477', 'rel028-477-s1'), ('476', 'rel028-476-s1'), ('353', 'rel028-353-s1'),
+    ('kb', 'rel028-kb-s1'), ('o3p', 'rel028b-o3p-s1'), ('476', 'rel028b-476-s1'),
+    ('o3p', 'rel028c-o3p-s1'), ('476', 'rel028c-476-s1'),
 ]
 REGIONS = ['USA', 'Europe', 'Japan', 'World', 'Germany', 'France', 'Spain', 'Italy', 'Australia', 'Brazil', 'Korea',
            'China', 'Netherlands', 'Sweden', 'Canada', 'Asia', 'UK', 'Scandinavia']

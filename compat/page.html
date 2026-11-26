@@ -179,7 +179,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
     </div>
     <div class="panel">
       <h2>Test devices</h2>
-      <p id="devs">Adreno 8xx: Odin 3 Portal, Odin 3. Adreno 7xx: Odin 2 Portal, Retroid Pocket Duo. Mali: Retroid Pocket Flip. Each game was run on one of them, the 82 games of the in-game check on the first four, and the 21 games of the release check on all five. No game files are hosted here.</p>
+      <p id="devs">Adreno 8xx: Odin 3 Portal, Odin 3. Adreno 7xx: Odin 2 Portal, Retroid Pocket Duo. Adreno 6xx: Retroid Pocket 5, Anbernic RG 55G1. Mali: Retroid Pocket Flip, Anbernic RG477M, Anbernic RG 476H, Anbernic RG353P, KONKR Pocket Block. Each game was run on one of the first five, the 82 games of the in-game check on the first four, and the 21 games of the release check on every device that was ready for that release (nine for 0.2.8). No game files are hosted here.</p>
     </div>
   </section>
 </main>
@@ -282,7 +282,7 @@ main.wrap { padding-block: 20px 40px; display: flex; flex-direction: column; gap
     var counts = { runs: 0, starts: 0, broken: 0, notyet: 0, notgame: 0 };
     D.games.filter(function (g) { var s = S.status; S.status = ''; var m = match(g); S.status = s; return m; }).forEach(function (g) { counts[g.status]++; });
     chips('g-status', [{ v: '', label: 'All', on: !S.status }].concat(Object.keys(STATUS).map(function (k) { return { v: k, label: STATUS[k], n: counts[k], on: S.status === k }; })), S.status, function (v) { S.status = v; S.limit = 100; render(); });
-    chips('g-gpu', [{ v: '', label: 'Any', on: !S.gpu }].concat(['Adreno 8xx', 'Adreno 7xx', 'Mali'].map(function (k) { return { v: k, label: k, on: S.gpu === k }; })), S.gpu, function (v) { S.gpu = v; S.limit = 100; render(); });
+    chips('g-gpu', [{ v: '', label: 'Any', on: !S.gpu }].concat(['Adreno 8xx', 'Adreno 7xx', 'Adreno 6xx', 'Mali'].map(function (k) { return { v: k, label: k, on: S.gpu === k }; })), S.gpu, function (v) { S.gpu = v; S.limit = 100; render(); });
     chips('g-has', HAS.map(function (h) { return { v: h[0], label: h[1], on: !!S.has[h[0]] }; }), null, function (v) { S.has[v] = !S.has[v]; S.limit = 100; render(); });
     chips('g-type', [{ v: '', label: 'All', on: !S.type }].concat(TYPES.map(function (k) { return { v: k, label: k, on: S.type === k }; })), S.type, function (v) { S.type = v; S.limit = 100; render(); });
     var all = D.counts;
